@@ -1,5 +1,5 @@
-# HyPSAM: Hybrid Prompt-driven Segment Anything Model for RGB-Thermal Salient Object Detection
-This are the results of "HyPSAM: Hybrid Prompt-driven Segment Anything Model for RGB-Thermal Salient Object Detection".
+# HyPSAM: Hybrid Prompt-driven Segment Anything Model for RGB-Thermal Salient Object Detection (IEEE Transactions on Circuits and Systems for Video Technology (TCSVT25))
+This are the results of the TCSVT2025 paper "HyPSAM: Hybrid Prompt-driven Segment Anything Model for RGB-Thermal Salient Object Detection". [URL](https://ieeexplore.ieee.org/document/11177578)
 
 https://github.com/user-attachments/assets/ef79dc19-9ca1-4f57-96a1-2575e95c1e9d
 
@@ -31,3 +31,28 @@ thereby highlighting the potential of prompt engineering in this
 field
 
 <img width="1061" height="526" alt="图片" src="https://github.com/user-attachments/assets/350d8cdd-1851-47d6-80de-9fee6a330a55" />
+
+## Comparison with the state-of-the-art methods
+<img width="1116" height="507" alt="图片" src="https://github.com/user-attachments/assets/904e1844-f9ba-495f-b86c-2ee605130d55" />
+
+## DFNet results
+[DFNet](https://github.com/milotic233/HyPSAM/blob/main/dfnet.zip)
+
+## HyPSAM results
+[HyPSAM](https://github.com/milotic233/HyPSAM/blob/main/hypsam.zip)
+
+## Citation
+Please cite this paper in your publications if it helps your research:
+
+```
+@ARTICLE{hypsam,
+  author={Hou, Ruichao and Li, Xingyuan and Ren, Tongwei and Zhou, Dongming and Wu, Gangshan and Cao, Jinde},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={HyPSAM: Hybrid Prompt-driven Segment Anything Model for RGB-Thermal Salient Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Decoding;Object detection;Image segmentation;Convolution;Kernel;Feature extraction;Training;Computer architecture;Semantics;Adaptation models;RGB-thermal;salient object detection;dynamic convolution;hybrid prompts;segment anything model},
+  doi={10.1109/TCSVT.2025.3613770}}
+```
